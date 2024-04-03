@@ -1,0 +1,12 @@
+name: "Healthchecks.io"
+description: "This add-on send a heartbeat to Healthchecks.io to monitor its status"
+version: "1.0.0"
+slug: "healthcheck"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
